@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#search_bar{
+    height: 56px;
+    position: fixed;
+    width: 100%;
+    padding: 0 16px;
+}
+#search_bar a{
+    display: inline-block;
+}
+#search_bar span{
+    display: none;
+}
+#tap{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    background-image: url(./sp_search.png);
+    background-position: -132px -2px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+#youtube_icon{
+    width: 97px;
+    height: 12px;
+    padding: 18px 14px 18px 16px;
+    background-image: url(./sp_search.png);
+    background-position: -2px 2px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.search_group{
+    position: relative;
+}
+#search_group_center{
+    width: 728px;
+    height: 40px;
+    position: absolute;
+    left: 50%; top: 50%;
+    margin-left: -364px;
+    margin-top: -20px;
+}
+fieldset {
+    width: 537px;
+    height: 40px;
+    margin-left: 34px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+}
+fieldset input{
+    border: none;
+    padding: 8px 6px;
+    outline: none;
+    width: 475px;
+    height: 24px;
+    background: none;
+}
+fieldset button{
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(189, 189, 189);
+    background: rgb(240, 240, 240);
+    background-image: url(./sp_search.png);
+    background-position: -205px -6px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
